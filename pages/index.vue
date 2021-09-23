@@ -1,6 +1,6 @@
 <template>
 <div>
-<Header/>
+
 
 <section class="hero-wrapper overflow-hidden">
     <div class="overlay"></div><!-- end overlay -->
@@ -314,134 +314,10 @@
 <section class="category-area bg-gray arrow-down-shape position-relative section-padding">
     <div class="container">
         <div class="row mt-5">
-            <div class="col-lg-3 responsive-column">
-                <div class="category-item overflow-hidden">
-                    <img src="~/assets/images/cat-img.jpg" alt="category-image" class="cat-img">
-                    <div class="category-content d-flex align-items-center justify-content-center">
-                        <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
-                            <div class="icon-element mb-3 mx-auto">
-                                <span class="la la-cutlery"></span>
-                            </div>
-                            <div class="cat-content">
-                                <h4 class="cat__title mb-3">Restaurants</h4>
-                                <span class="badge">12 Listings</span>
-                            </div>
-                        </a>
-                    </div>
-                </div><!-- end category-item -->
-            </div><!-- end col-lg-3 -->
-            <div class="col-lg-3 responsive-column">
-                <div class="category-item overflow-hidden">
-                    <img src="~/assets/images/cat-img-2.jpg" alt="category-image" class="cat-img">
-                    <div class="category-content d-flex align-items-center justify-content-center">
-                        <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
-                            <div class="icon-element mb-3 mx-auto">
-                                <span class="la la-plane"></span>
-                            </div>
-                            <div class="cat-content">
-                                <h4 class="cat__title mb-3">Travels</h4>
-                                <span class="badge">55 Listings</span>
-                            </div>
-                        </a>
-                    </div>
-                </div><!-- end category-item -->
-            </div><!-- end col-lg-3 -->
-            <div class="col-lg-3 responsive-column">
-                <div class="category-item overflow-hidden">
-                    <img src="~/assets/images/cat-img-3.jpg" alt="category-image" class=" cat-img">
-                    <div class="category-content d-flex align-items-center justify-content-center">
-                        <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
-                            <div class="icon-element mb-3 mx-auto">
-                                <span class="la la-hotel"></span>
-                            </div>
-                            <div class="cat-content">
-                                <h4 class="cat__title mb-3">Hotels</h4>
-                                <span class="badge">44 Listings</span>
-                            </div>
-                        </a>
-                    </div>
-                </div><!-- end category-item -->
-            </div><!-- end col-lg-3 -->
-            <div class="col-lg-3 responsive-column">
-                <div class="category-item overflow-hidden">
-                    <img src="~/assets/images/cat-img-4.jpg" alt="category-image" class=" cat-img">
-                    <div class="category-content d-flex align-items-center justify-content-center">
-                        <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
-                            <div class="icon-element mb-3 mx-auto">
-                                <span class="la la-music"></span>
-                            </div>
-                            <div class="cat-content">
-                                <h4 class="cat__title mb-3">Events</h4>
-                                <span class="badge">33 Listings</span>
-                            </div>
-                        </a>
-                    </div>
-                </div><!-- end category-item -->
-            </div><!-- end col-lg-3 -->
-            <div class="col-lg-3 responsive-column">
-                <div class="category-item overflow-hidden">
-                    <img src="~/assets/images/cat-img-5.jpg" alt="category-image" class=" cat-img">
-                    <div class="category-content d-flex align-items-center justify-content-center">
-                        <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
-                            <div class="icon-element mb-3 mx-auto">
-                                <span class="la la-shopping-cart"></span>
-                            </div>
-                            <div class="cat-content">
-                                <h4 class="cat__title mb-3">Shops</h4>
-                                <span class="badge">66 Listings</span>
-                            </div>
-                        </a>
-                    </div>
-                </div><!-- end category-item -->
-            </div><!-- end col-lg-3 -->
-            <div class="col-lg-3 responsive-column">
-                <div class="category-item overflow-hidden">
-                    <img src="~/assets/images/cat-img-6.jpg" alt="category-image" class=" cat-img">
-                    <div class="category-content d-flex align-items-center justify-content-center">
-                        <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
-                            <div class="icon-element mb-3 mx-auto">
-                                <span class="la la-dumbbell"></span>
-                            </div>
-                            <div class="cat-content">
-                                <h4 class="cat__title mb-3">Fitness</h4>
-                                <span class="badge">33 Listings</span>
-                            </div>
-                        </a>
-                    </div>
-                </div><!-- end category-item -->
-            </div><!-- end col-lg-3 -->
-            <div class="col-lg-3 responsive-column">
-                <div class="category-item overflow-hidden">
-                    <img src="~/assets/images/cat-img-7.jpg" alt="category-image" class=" cat-img">
-                    <div class="category-content d-flex align-items-center justify-content-center">
-                        <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
-                            <div class="icon-element mb-3 mx-auto">
-                                <span class="la la-glass"></span>
-                            </div>
-                            <div class="cat-content">
-                                <h4 class="cat__title mb-3">Food & Drink</h4>
-                                <span class="badge">44 Listings</span>
-                            </div>
-                        </a>
-                    </div>
-                </div><!-- end category-item -->
-            </div><!-- end col-lg-3 -->
-            <div class="col-lg-3 responsive-column">
-                <div class="category-item overflow-hidden">
-                    <img src="~/assets/images/cat-img-8.jpg" alt="category-image" class=" cat-img">
-                    <div class="category-content d-flex align-items-center justify-content-center">
-                        <a href="#" class="category-link d-flex flex-column justify-content-center w-100 h-100">
-                            <div class="icon-element mb-3 mx-auto">
-                                <span class="la la-paint-brush"></span>
-                            </div>
-                            <div class="cat-content">
-                                <h4 class="cat__title mb-3">Art & Design</h4>
-                                <span class="badge">11 Listings</span>
-                            </div>
-                        </a>
-                    </div>
-                </div><!-- end category-item -->
-            </div><!-- end col-lg-3 -->
+           <Category  
+           v-for="category in categories" 
+           :key="category.badge" 
+           :category="category"/>
         </div><!-- end row -->
     </div><!-- end container -->
 </section><!-- end category-area -->
@@ -476,100 +352,13 @@
             </div><!-- end col-lg-12 -->
         </div><!-- end row -->
         <div class="row padding-top-60px">
-            <div class="col-lg-4 responsive-column">
-                <div class="card-item">
-                    <div class="card-image">
-                        <a href="#" class="d-block">
-                            <img src="~/assets/images/img1.jpg" class="card__img" alt="">
-                            <span class="badge">Featured</span>
-                        </a>
 
-                    </div>
-                    <div class="card-content">
-                        <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="TechyDevs">
-                            <img src="~/assets/images/photoshop.png" alt="author-img">
-                        </a>
-                        <h4 class="card-title pt-3">
-                            <a href="#">Roma’s Ristorante Italiano</a>
-                            <i class="la la-check-circle ml-1" data-toggle="tooltip" data-placement="top" title="Claimed"></i>
-                        </h4>
-                        <ul class="listing-action d-flex border-top border-top-color border-bottom border-bottom-color mt-4 py-2">
-                            <li>Electronics > Mobiles</li>
-                        </ul>
-                        <p class="card-sub pt-3"><a href="#"><i class="la la-map-marker mr-1 text-color-2"></i>Bishop Avenue, New York</a></p>
-                        <ul class="listing-meta d-flex align-items-center justify-content-between">
-                            <li>
-                                <strong class="font-weight-medium">LKR 350</strong>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <i class="la la-eye mr-1 listing-icon"></i><a href="#" class="listing-cat-link">109</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div><!-- end card-item -->
-            </div><!-- end col-lg-4 -->
-            <div class="col-lg-4 responsive-column">
-                <div class="card-item">
-                    <div class="card-image">
-                        <a href="#" class="d-block">
-                            <img src="~/assets/images/img2.jpg" data-src="images/img2.jpg" class="card__img" alt="">
-                            <span class="badge">Featured</span>
-                        </a>
-                    </div>
-                    <div class="card-content">
-                        <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="TechyDevs">
-                            <img src="~/assets/images/sketch.png" alt="author-img">
-                        </a>
-                        <h4 class="card-title pt-3">
-                            <a href="#">Dumpling Baby China Bistro</a>
-                        </h4>
-                        <ul class="listing-action d-flex border-top border-top-color border-bottom border-bottom-color mt-4 py-2">
-                            <li>Electronics > Mobiles</li>
-                        </ul>
-                        <p class="card-sub pt-3"><a href="#"><i class="la la-map-marker mr-1 text-color-2"></i>Bishop Avenue, New York</a></p>
-                        <ul class="listing-meta d-flex align-items-center justify-content-between">
-                            <li>
-                                <strong class="font-weight-medium">LKR 350</strong>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <i class="la la-eye mr-1 listing-icon"></i><a href="#" class="listing-cat-link">109</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div><!-- end card-item -->
-            </div><!-- end col-lg-4 -->
-            <div class="col-lg-4 responsive-column">
-                <div class="card-item">
-                    <div class="card-image">
-                        <a href="#" class="d-block">
-                            <img src="~/assets/images/img3.jpg" data-src="images/img3.jpg" class="card__img" alt="">
-                            <span class="badge">Featured</span>
-                        </a>
-                    </div>
-                    <div class="card-content">
-                        <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="TechyDevs">
-                            <img src="~/assets/images/listing-logo.jpg" alt="author-img">
-                        </a>
-                        <h4 class="card-title pt-3">
-                            <a href="#">Yerba Buena Fresh Mex</a>
-                            <i class="la la-check-circle ml-1" data-toggle="tooltip" data-placement="top" title="Claimed"></i>
-                        </h4>
-                        <ul class="listing-action d-flex border-top border-top-color border-bottom border-bottom-color mt-4 py-2">
-                            <li>Electronics > Mobiles</li>
-                        </ul>
-                        <p class="card-sub pt-3"><a href="#"><i class="la la-map-marker mr-1 text-color-2"></i>Bishop Avenue, New York</a></p>
-                        <ul class="listing-meta d-flex align-items-center justify-content-between">
-                            <li>
-                                <strong class="font-weight-medium">LKR 350</strong>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <i class="la la-eye mr-1 listing-icon"></i><a href="#" class="listing-cat-link">109</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div><!-- end card-item -->
-            </div><!-- end col-lg-4 -->
+        <FeaturedAds 
+        v-for="feature in features" 
+        :key="feature.title" 
+        :feature="feature"
+        />
+           
         </div><!-- end row -->
         <div class="more-link-wrap text-right">
             <a href="#" class="btn-text font-weight-medium">View more featured Ads <i class="la la-arrow-right icon"></i></a>
@@ -806,7 +595,7 @@
 <!-- ================================
        START FOOTER AREA
 ================================= -->
-<Footer></Footer>
+
 
 <!-- end footer-area -->
 <!-- ================================
@@ -820,204 +609,32 @@
 <!-- end back-to-top -->
 
 <!-- Modal -->
-<div class="modal fade modal-container login-form" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header align-items-center mh-bg">
-                <h5 class="modal-title" id="loginModalTitle">Hey, Welcome back!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="la la-times-circle"></span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form method="post" class="form-box">
-                    <div class="input-box">
-                        <label class="label-text">Username or email</label>
-                        <div class="form-group">
-                            <span class="la la-user form-icon"></span>
-                            <input class="form-control form-control-styled" type="text" name="text" placeholder="Username or email address">
-                        </div>
-                    </div>
-                    <div class="input-box">
-                        <label class="label-text">Password</label>
-                        <div class="form-group">
-                            <span class="la la-lock form-icon"></span>
-                            <input class="form-control form-control-styled" type="text" name="text" placeholder="Enter password">
-                        </div>
-                    </div>
-                    <div class="input-box d-flex align-items-center justify-content-between pb-4 user-action-meta">
-                        <div class="custom-checkbox">
-                            <input type="checkbox" id="keepMeSignedChb">
-                            <label for="keepMeSignedChb" class="font-size-14">Keep me signed in</label>
-                        </div>
-                        <a href="javascript:void(0)" class="margin-bottom-10px lost-pass-btn font-size-14">Lost Password?</a>
-                    </div>
-                    <div class="btn-box">
-                        <button type="submit" class="theme-btn gradient-btn w-100">
-                            <i class="la la-sign-in mr-1"></i> Login to Account
-                        </button>
-                        <p class="sub-text-box text-right pt-1 font-weight-medium font-size-14">
-                            New to Listhub? <a class="text-color-2 signup-btn" href="javascript:void(0)">Create account</a>
-                        </p>
-                    </div>
-                    <div class="icon-element font-size-16 font-weight-semi-bold mt-5 mb-4 mx-auto">
-                        OR
-                    </div>
-                    <div class="text-center">
-                        <p class="font-size-15 font-weight-medium">Login with your social network</p>
-                        <ul class="social-profile social-profile-colored py-3">
-                            <li>
-                                <a href="#" class="google-bg mx-1" data-toggle="tooltip" data-placement="top" title="Google">
-                                    <i class="lab la-google"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="facebook-bg mx-1" data-toggle="tooltip" data-placement="top" title="Facebook">
-                                    <i class="lab la-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="twitter-bg mx-1" data-toggle="tooltip" data-placement="top" title="Twitter">
-                                    <i class="lab la-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="instagram-bg mx-1" data-toggle="tooltip" data-placement="top" title="Instagram">
-                                    <i class="lab la-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Modal -->
-<div class="modal fade modal-container signup-form" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header align-items-center mh-bg-2">
-                <h5 class="modal-title" id="signUpModalTitle">Welcome! create your listhub account</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="la la-times-circle"></span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form method="post" class="form-box">
-                    <div class="input-box">
-                        <label class="label-text">Username</label>
-                        <div class="form-group">
-                            <span class="la la-user form-icon"></span>
-                            <input class="form-control form-control-styled" type="text" name="text" placeholder="Username">
-                        </div>
-                    </div>
-                    <div class="input-box">
-                        <label class="label-text">Email</label>
-                        <div class="form-group">
-                            <span class="la la-envelope form-icon"></span>
-                            <input class="form-control form-control-styled" type="email" name="text" placeholder="Email address">
-                        </div>
-                    </div>
-                    <div class="input-box">
-                        <label class="label-text">Password</label>
-                        <div class="form-group">
-                            <span class="la la-lock form-icon"></span>
-                            <input class="form-control form-control-styled" type="text" name="text" placeholder="Enter password">
-                        </div>
-                        <p class="font-size-14 mt-n2">Your password must be at least 6 characters long and must contain letters, numbers and special characters. Cannot contain whitespace.</p>
-                    </div>
-                    <div class="input-box py-4 user-action-meta">
-                        <div class="custom-checkbox">
-                            <input type="checkbox" id="agreeChb">
-                            <label for="agreeChb" class="font-size-14">By signing up, you agree to our <a href="privacy-policy.html" class="text-color-2">Privacy Policy.</a></label>
-                        </div>
-                    </div>
-                    <div class="btn-box">
-                        <button type="submit" class="theme-btn gradient-btn w-100">
-                            <i class="la la-user-plus mr-1"></i> Register Account
-                        </button>
-                        <p class="sub-text-box text-right pt-1 font-weight-medium font-size-14">
-                            Already on Listhub? <a class="text-color-2 login-btn" href="javascript:void(0)">Log in</a>
-                        </p>
-                    </div>
-                    <div class="icon-element font-size-16 font-weight-semi-bold mt-5 mb-4 mx-auto">
-                        OR
-                    </div>
-                    <div class="text-center">
-                        <p class="font-size-15 font-weight-medium">Connect with social network</p>
-                        <ul class="social-profile social-profile-colored py-3">
-                            <li>
-                                <a href="#" class="google-bg mx-1" data-toggle="tooltip" data-placement="top" title="Google">
-                                    <i class="lab la-google"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="facebook-bg mx-1" data-toggle="tooltip" data-placement="top" title="Facebook">
-                                    <i class="lab la-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="twitter-bg mx-1" data-toggle="tooltip" data-placement="top" title="Twitter">
-                                    <i class="lab la-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="instagram-bg mx-1" data-toggle="tooltip" data-placement="top" title="Instagram">
-                                    <i class="lab la-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                        <p class="font-size-15 pb-3">Don't worry, we never any post to your social profile.</p>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade modal-container recover-form" id="recoverModal" tabindex="-1" role="dialog" aria-labelledby="recoverModalTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header align-items-center mh-bg">
-                <h5 class="modal-title" id="recoverModalTitle">Reset password</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="la la-times-circle"></span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p class="font-size-15 font-weight-medium pb-3">
-                    Enter your username or email to reset your password.
-                    You will receive an email with instructions on how to reset your password. If you are experiencing problems
-                    resetting your password <a href="contact.html" class="text-color-2">contact us</a> or <a href="#" class="text-color-2">send us an email</a>
-                </p>
-                <form method="post" class="form-box">
-                    <div class="input-box">
-                        <label class="label-text">Username or email</label>
-                        <div class="form-group">
-                            <span class="la la-user form-icon"></span>
-                            <input class="form-control form-control-styled" type="text" name="text" placeholder="Username or email address">
-                        </div>
-                    </div>
-                    <div class="btn-box">
-                        <button type="submit" class="theme-btn gradient-btn w-100">
-                            Get New Password <i class="la la-arrow-right ml-1"></i>
-                        </button>
-                        <p class="sub-text-box text-right pt-1 font-weight-medium font-size-14">
-                            Not a member? <a class="text-color-2 signup-btn" href="javascript:void(0)">Create account</a>
-                        </p>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 
 </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+      return {
+        features: []
+      }
+    },
+    async fetch() {
+      this.features = await fetch(
+        '~/data.json'
+      ).then(res => res.json())
+    },
+    data() {
+      return {
+        categories: []
+      }
+    },
+    async fetch() {
+      this.categories = await fetch(
+        '~/data1.json'
+      ).then(res => res.json())
+    }
+}
 </script>
