@@ -616,25 +616,121 @@
 
 <script>
 export default {
-  data() {
-      return {
-        features: []
+  data(){
+    return{
+
+      features :[
+        {
+        title:'title',
+        image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+        icon:'~/assets/images/photoshop.png',
+        badge:'badge',
+        electronic:'Electronics > Mobiles',
+        address:'Bishop Avenue',
+        country:'New York',
+        viwes:'190',
+        price:'500'
+      },
+      {
+        title:'title',
+        image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+        icon:'~/assets/images/photoshop.png',
+        badge:'badge',
+        electronic:'Electronics > Mobiles',
+        address:'Bishop Avenue',
+        country:'New York',
+        viwes:'190',
+        price:'500'
+      },
+      {
+        title:'title',
+        image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+        icon:'~/assets/images/photoshop.png',
+        badge:'badge',
+        electronic:'Electronics > Mobiles',
+        address:'Bishop Avenue',
+        country:'New York',
+        viwes:'190',
+        price:'500'
+      },
+      {
+        title:'title',
+        image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+        icon:'~/assets/images/photoshop.png',
+        badge:'badge',
+        electronic:'Electronics > Mobiles',
+        address:'Bishop Avenue',
+        country:'New York',
+        viwes:'190',
+        price:'500'
       }
-    },
-    async fetch() {
-      this.features = await fetch(
-        '~/data.json'
-      ).then(res => res.json())
-    },
-    data() {
-      return {
-        categories: []
-      }
-    },
-    async fetch() {
-      this.categories = await fetch(
-        '~/data1.json'
-      ).then(res => res.json())
+      
+      ],
+
+      
+       categories:[ 
+         {
+         image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+         badge:'badge1'
+
+        },
+        {
+         image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+         badge:'badge1'
+
+        },
+        {
+         image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+         badge:'badge1'
+
+        },
+        {
+         image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+         badge:'badge1'
+
+        },
+        {
+         image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+         badge:'badge1'
+
+        },
+        {
+         image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+         badge:'badge1'
+
+        },
+
+        {
+         image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+         badge:'badge1'
+
+        },
+        {
+         image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+         badge:'badge1'
+
+        },
+        {
+         image:'https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg',
+         badge:'badge1'
+
+        },
+        
+
+      
+
+       ]
+     
+       
+
+     
+
+        
+      
+      
+
     }
+  }
+  
 }
 </script>
